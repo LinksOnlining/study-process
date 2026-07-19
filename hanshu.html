@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>hanshu</title>
+  </head>
+  <body>
+    <button id="dzs" onclick="dianzan()">0</button>
+    <script>
+      function dianzan() {
+        let dianzanbiaoqian = window.document.getElementById("dzs");
+        let dianzanshu = parseInt(dianzanbiaoqian.innerText);
+        let xinshuzi = dianzanshu + 1;
+        dianzanbiaoqian.innerText = xinshuzi;
+        return;
+      }
+    </script>
+  </body>
+</html>
